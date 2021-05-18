@@ -6,7 +6,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>AdminLoginServlet</servlet-name>
-    <url-pattern>//adminlog</url-pattern>
+    <url-pattern>/adminlog</url-pattern>
   </servlet-mapping>
   <servlet>
     <servlet-name>UserLoginServlet</servlet-name>
@@ -14,7 +14,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>UserLoginServlet</servlet-name>
-    <url-pattern>/userlog</url-pattern>
+    <url-pattern>/servlets.UserLoginServlet</url-pattern>
   </servlet-mapping>
   <servlet>
     <servlet-name>UserRegisterServlet</servlet-name>
